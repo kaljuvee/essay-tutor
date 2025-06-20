@@ -1,0 +1,21 @@
+{
+  "test_name": "basic_functionality",
+  "timestamp": "2025-06-20T11:57:39.708338",
+  "tests": [
+    {
+      "test": "initialization",
+      "status": "PASS",
+      "details": "EssayTutor initialized successfully"
+    },
+    {
+      "test": "session_creation",
+      "status": "PASS",
+      "details": "Session created with ID: test_session"
+    },
+    {
+      "test": "mock_conversation",
+      "status": "PASS",
+      "details": "Got response: <MagicMock name='AsyncOpenAI().chat.completions.create().choices.__getitem__().message.content.__getitem__()' id='139574799177472'>..."
+    }
+  ]
+}

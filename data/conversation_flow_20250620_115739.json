@@ -1,0 +1,33 @@
+{
+  "test_name": "conversation_flow",
+  "timestamp": "2025-06-20T11:57:39.712997",
+  "conversation": [
+    {
+      "user_message": "Hello, I want to write an essay",
+      "tutor_response": "<MagicMock name='AsyncOpenAI().chat.completions.create().choices.__getitem__().message.content' id='139574799144464'>",
+      "timestamp": "2025-06-20T11:57:39.716080"
+    },
+    {
+      "user_message": "I want to write about climate change",
+      "tutor_response": "<MagicMock name='AsyncOpenAI().chat.completions.create().choices.__getitem__().message.content' id='139574799144464'>",
+      "timestamp": "2025-06-20T11:57:39.716587"
+    },
+    {
+      "user_message": "Can you help me create an outline?",
+      "tutor_response": "<MagicMock name='AsyncOpenAI().chat.completions.create().choices.__getitem__().message.content' id='139574799144464'>",
+      "timestamp": "2025-06-20T11:57:39.717003"
+    },
+    {
+      "user_message": "How do I write a good thesis statement?",
+      "tutor_response": "<MagicMock name='AsyncOpenAI().chat.completions.create().choices.__getitem__().message.content' id='139574799144464'>",
+      "timestamp": "2025-06-20T11:57:39.717428"
+    }
+  ],
+  "tests": [
+    {
+      "test": "conversation_flow",
+      "status": "PASS",
+      "details": "Completed conversation with 4 messages"
+    }
+  ]
+}

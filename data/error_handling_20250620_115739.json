@@ -1,0 +1,16 @@
+{
+  "test_name": "error_handling",
+  "timestamp": "2025-06-20T11:57:39.718983",
+  "errors": [
+    {
+      "test": "no_api_key",
+      "status": "PASS",
+      "details": "OpenAI API key is required. Set OPENAI_API_KEY environment variable or pass it to the constructor."
+    },
+    {
+      "test": "openai_api_error",
+      "status": "FAIL",
+      "details": "Error not handled properly"
+    }
+  ]
+}

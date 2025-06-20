@@ -1,0 +1,42 @@
+{
+  "test_name": "session_management",
+  "timestamp": "2025-06-20T11:57:39.718058",
+  "sessions": {
+    "session1": {
+      "session_id": "session1",
+      "topic": "Topic for session1",
+      "current_stage": "topic_selection",
+      "message_count": 0,
+      "history_length": 0,
+      "retrieved": true
+    },
+    "session2": {
+      "session_id": "session2",
+      "topic": "Topic for session2",
+      "current_stage": "topic_selection",
+      "message_count": 0,
+      "history_length": 0,
+      "retrieved": true
+    },
+    "session3": {
+      "session_id": "session3",
+      "topic": "Topic for session3",
+      "current_stage": "topic_selection",
+      "message_count": 0,
+      "history_length": 0,
+      "retrieved": true
+    }
+  },
+  "reset_test": {
+    "session_id": "session1",
+    "reset_successful": true,
+    "messages_after_reset": 0
+  },
+  "tests": [
+    {
+      "test": "session_management",
+      "status": "PASS",
+      "details": "Managed 3 sessions successfully"
+    }
+  ]
+}
