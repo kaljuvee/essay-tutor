@@ -45,10 +45,15 @@ pip install -r requirements.txt
 
 ### 4. Set Up Environment Variables
 
-Create a `.env` file in the project root:
+Copy the sample environment file and configure it with your API key:
 
 ```bash
-touch .env
+# Copy the sample environment file
+cp .env.sample .env
+
+# Edit the .env file with your OpenAI API key
+# You can use any text editor, for example:
+nano .env
 ```
 
 Add your OpenAI API key to the `.env` file:
